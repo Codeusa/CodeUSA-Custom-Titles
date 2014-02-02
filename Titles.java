@@ -93,6 +93,15 @@
 			return "<col=c96300>The Divine</col> ";
 		case 44:
 			return "<col=c96300>The Fallen</col> ";
+		case 45:
+			if (male) {
+				return "<col=c96300>God</col> ";
+			}
+			return "<col=c96300>Goddess</col> ";
+		case 46:
+			return "<col=c96300>The Skiller</col> ";
+		case 47:
+			return "<col=c96300>The Noob</col> ";
 		}
 		return "";
 	}
